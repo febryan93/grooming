@@ -1,0 +1,83 @@
+.navbar-brand {
+    font-family: Akaya Telivigala;
+    font-size: 342px;
+
+}
+
+.navbar {
+    position: static;
+    background: antiquewhite;
+
+}
+
+.nav-item {
+    padding: auto;
+    inline-size: block;
+
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0B63DC;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+
+}
+
+
+.testimonial {
+    margin-top: 80px;
+}
+
+.figure img {
+    width: 60px;
+    margin: 20px 10px 10px;
+    opacity: 0.6;
+
+}
+
+.figure img.utama {
+    width: 90px;
+    opacity: 1;
+}
+
+.figure h5 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.figure p {
+    text-align: center;
+    margin-top: 3px;
+    text-shadow: #0B63DC;
+}
+
+.testimonial figcaption {
+    text-align: center;
+}
+
+.card b {
+    border: 0;
+    background-color: #0B63DC;
+
+}
+
+.footer {
+    background: grey;
+    margin-top: 100px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 15px;
+
+}
